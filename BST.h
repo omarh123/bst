@@ -10,14 +10,14 @@ class BST{
 
 	public:
 		BST();
-    	void insertNode(BinNode *anotherNode);
-    	string inorderWalk(int i);
-    	string  preOrderWalk(int i);
-    	BinNode getRoot();
-
+		void insertNode(BinNode *anotherNode);
+		string inorderWalk(int i);
+		string  preOrderWalk(int i);
+		BinNode getRoot();
+		
 		~BST();
 	private:
-    	BinNode* root;
+		BinNode* root;
     
 };
 
