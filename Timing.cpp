@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <sys/time.h>
 
@@ -18,8 +17,7 @@ int main(){
 
     // end timer here    
     gettimeofday(&finish, NULL);
-    double totalTime = 
-  (double)((double)(finish.tv_sec - start.tv_sec) * 1000000 + 
+    double totalTime = (double)((double)(finish.tv_sec - start.tv_sec) * 1000000 + 
 		 (double)(finish.tv_usec - start.tv_usec)) / 
 	(double)REPS;
     cout << "Total time: " << totalTime << " microseconds" << endl;
