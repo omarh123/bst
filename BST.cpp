@@ -2,7 +2,7 @@
 #include <iostream>
 
 BST::BST(){
-  root = NULL;
+	root = NULL;
 }
 
 BST::BST(BinNode* rootIn){
