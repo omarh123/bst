@@ -13,7 +13,7 @@ class BST{
 		void insertNode(BinNode *anotherNode);
 		string inorderWalk(int i);
 		string  preOrderWalk(int i);
-		BinNode getRoot();
+		BinNode* getRoot();
 		
 		~BST();
 	private:
