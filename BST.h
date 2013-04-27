@@ -10,6 +10,7 @@ class BST{
 
 	public:
 		BST();
+		BST(BinNode* rootIn);
 		void insertNode(BinNode *anotherNode);
 		string inorderWalk(int i);
 		string  preOrderWalk(int i);
