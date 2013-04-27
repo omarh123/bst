@@ -12,6 +12,7 @@ class BST{
 		BST();
 		BST(BinNode* rootIn);
 		void insertNode(string dataIn);
+		void insertAUX(BinNode *newNode, BinNode *subTreeRoot);
 		string inorderWalk(int i);
 		string  preOrderWalk(int i);
 		BinNode* getRoot();
