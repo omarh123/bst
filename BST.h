@@ -8,11 +8,11 @@ using namespace std;
 
 class BST{
 
-    public:
+	public:
 		BST();
     	void insertNode(BinNode *anotherNode);
     	string inorderWalk(int i);
-		string  preOrderWalk(int i);
+    	string  preOrderWalk(int i);
     	BinNode getRoot();
 
 		~BST();
@@ -22,3 +22,4 @@ class BST{
 };
 
 #endif /* defined(__BST__BST__) */
+
